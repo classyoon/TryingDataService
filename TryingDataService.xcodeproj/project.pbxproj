@@ -14,6 +14,8 @@
 		CAAF13B02B3E628000FB0201 /* TryingDataServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF13AF2B3E628000FB0201 /* TryingDataServiceTests.swift */; };
 		CAAF13BA2B3E628000FB0201 /* TryingDataServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF13B92B3E628000FB0201 /* TryingDataServiceUITests.swift */; };
 		CAAF13BC2B3E628000FB0201 /* TryingDataServiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF13BB2B3E628000FB0201 /* TryingDataServiceUITestsLaunchTests.swift */; };
+		CAAF13C92B3E653B00FB0201 /* UserDefaultsDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF13C82B3E653B00FB0201 /* UserDefaultsDS.swift */; };
+		CAAF13CB2B3E654200FB0201 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF13CA2B3E654200FB0201 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		CAAF13B52B3E628000FB0201 /* TryingDataServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryingDataServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAAF13B92B3E628000FB0201 /* TryingDataServiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryingDataServiceUITests.swift; sourceTree = "<group>"; };
 		CAAF13BB2B3E628000FB0201 /* TryingDataServiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryingDataServiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CAAF13C82B3E653B00FB0201 /* UserDefaultsDS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsDS.swift; sourceTree = "<group>"; };
+		CAAF13CA2B3E654200FB0201 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				CAAF139E2B3E627E00FB0201 /* TryingDataServiceApp.swift */,
+				CAAF13C82B3E653B00FB0201 /* UserDefaultsDS.swift */,
+				CAAF13CA2B3E654200FB0201 /* DataService.swift */,
 				CAAF13A02B3E627E00FB0201 /* ContentView.swift */,
 				CAAF13A22B3E628000FB0201 /* Assets.xcassets */,
 				CAAF13A42B3E628000FB0201 /* Preview Content */,
@@ -259,6 +265,8 @@
 			files = (
 				CAAF13A12B3E627E00FB0201 /* ContentView.swift in Sources */,
 				CAAF139F2B3E627E00FB0201 /* TryingDataServiceApp.swift in Sources */,
+				CAAF13C92B3E653B00FB0201 /* UserDefaultsDS.swift in Sources */,
+				CAAF13CB2B3E654200FB0201 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
